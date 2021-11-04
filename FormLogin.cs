@@ -50,7 +50,8 @@ namespace ManagerStoreBuilding
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-165MRAU; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
+            //Edit database here
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-165MRAU\\SQLEXPRESS; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
             SqlCommand cmd = new SqlCommand("Select * from NguoiDung where TaiKhoan = @TK and MatKhau = @MK", conn);
             cmd.Parameters.AddWithValue("@TK", textBox1.Text);
             cmd.Parameters.AddWithValue("@MK", textBox2.Text);
@@ -86,6 +87,5 @@ namespace ManagerStoreBuilding
             Form f = new FormDK();
             f.ShowDialog();
         }
-
     }
 }
