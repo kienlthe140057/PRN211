@@ -87,5 +87,10 @@ namespace ManagerStoreBuilding
             Form f = new FormDK();
             f.ShowDialog();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
