@@ -17,7 +17,7 @@ namespace ManagerStoreBuilding
         {
             InitializeComponent();
         }
-        
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (textBox1.TextLength > 2)
@@ -50,7 +50,7 @@ namespace ManagerStoreBuilding
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-HS80QSQ; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-165MRAU; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
             SqlCommand cmd = new SqlCommand("Select * from NguoiDung where TaiKhoan = @TK and MatKhau = @MK", conn);
             cmd.Parameters.AddWithValue("@TK", textBox1.Text);
             cmd.Parameters.AddWithValue("@MK", textBox2.Text);
@@ -79,5 +79,13 @@ namespace ManagerStoreBuilding
         {
             Application.Exit();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new FormDK();
+            f.ShowDialog();
+        }
+
     }
 }
