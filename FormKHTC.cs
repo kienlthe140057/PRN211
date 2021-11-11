@@ -22,7 +22,7 @@ namespace ManagerStoreBuilding
         {
             SqlConnection conn = new SqlConnection("Data Source=DESKTOP-HS80QSQ; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
 
-            SqlCommand cmd = new SqlCommand("select HoaDon.MaKH,KhachHang.TenKH,  KhachHang.SDT, KhachHang.DiaChi, Sum(HoaDon.ThanhTien) as ThanhToan" +
+            SqlCommand cmd = new SqlCommand("select top 4 HoaDon.MaKH,KhachHang.TenKH,  KhachHang.SDT, KhachHang.DiaChi, Sum(HoaDon.ThanhTien) as ThanhToan" +
                 " from HoaDon, KhachHang" +
                 " where KhachHang.MaKH = HoaDon.MaKH" +
                 " group by HoaDon.MaKH, KhachHang.TenKH, KhachHang.SDT, KhachHang.DiaChi" +
