@@ -96,7 +96,7 @@ namespace ManagerStoreBuilding
                 workbook = excel.Workbooks.Add(Type.Missing);
                 worksheet = (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets["Sheet1"];
                 //đặt tên cho sheet
-                worksheet.Name = "Quản lý học sinh";
+                worksheet.Name = "Quản lý vật tư";
 
                 // export header trong DataGridView
                 for (int i = 0; i < dataGridView1.ColumnCount; i++)
