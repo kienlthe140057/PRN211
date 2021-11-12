@@ -51,7 +51,7 @@ namespace ManagerStoreBuilding
         private void button1_Click(object sender, EventArgs e)
         {
             //Edit database here
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-165MRAU\\SQLEXPRESS; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-7RAMVV0\\SQLEXPRESS; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
             SqlCommand cmd = new SqlCommand("Select * from NguoiDung where TaiKhoan = @TK and MatKhau = @MK", conn);
             cmd.Parameters.AddWithValue("@TK", textBox1.Text);
             cmd.Parameters.AddWithValue("@MK", textBox2.Text);
