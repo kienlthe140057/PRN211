@@ -57,8 +57,7 @@
             this.báoCáoThốngKêToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(12, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1774, 48);
+            this.menuStrip1.Size = new System.Drawing.Size(887, 40);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,14 +69,14 @@
             this.hệThốngToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hệThốngToolStripMenuItem.Image = global::ManagerStoreBuilding.Properties.Resources.user_icon;
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(175, 40);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(106, 36);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // MenuToolTripDK
             // 
             this.MenuToolTripDK.Image = global::ManagerStoreBuilding.Properties.Resources.Admin_icon;
             this.MenuToolTripDK.Name = "MenuToolTripDK";
-            this.MenuToolTripDK.Size = new System.Drawing.Size(269, 44);
+            this.MenuToolTripDK.Size = new System.Drawing.Size(137, 22);
             this.MenuToolTripDK.Text = "Đăng Ký";
             this.MenuToolTripDK.Click += new System.EventHandler(this.MenuToolTripDK_Click);
             // 
@@ -85,7 +84,7 @@
             // 
             this.MenuToolTripDX.Image = global::ManagerStoreBuilding.Properties.Resources.Extras_Shutdown_icon;
             this.MenuToolTripDX.Name = "MenuToolTripDX";
-            this.MenuToolTripDX.Size = new System.Drawing.Size(269, 44);
+            this.MenuToolTripDX.Size = new System.Drawing.Size(137, 22);
             this.MenuToolTripDX.Text = "Đăng Xuất";
             this.MenuToolTripDX.Click += new System.EventHandler(this.MenuToolTripDX_Click);
             // 
@@ -98,14 +97,14 @@
             this.danhMụcToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.danhMụcToolStripMenuItem.Image = global::ManagerStoreBuilding.Properties.Resources.list_icon;
             this.danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
-            this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(184, 40);
+            this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(110, 36);
             this.danhMụcToolStripMenuItem.Text = "Danh mục";
             // 
             // MenuToolTripNCC
             // 
             this.MenuToolTripNCC.Image = global::ManagerStoreBuilding.Properties.Resources.Admin_icon;
             this.MenuToolTripNCC.Name = "MenuToolTripNCC";
-            this.MenuToolTripNCC.Size = new System.Drawing.Size(315, 44);
+            this.MenuToolTripNCC.Size = new System.Drawing.Size(161, 22);
             this.MenuToolTripNCC.Text = "Nhà Cung Cấp";
             this.MenuToolTripNCC.Click += new System.EventHandler(this.MenuToolTripNCC_Click);
             // 
@@ -113,7 +112,7 @@
             // 
             this.MenuToolTripVT.Image = global::ManagerStoreBuilding.Properties.Resources.StrappedBox_icon;
             this.MenuToolTripVT.Name = "MenuToolTripVT";
-            this.MenuToolTripVT.Size = new System.Drawing.Size(315, 44);
+            this.MenuToolTripVT.Size = new System.Drawing.Size(161, 22);
             this.MenuToolTripVT.Text = "Vật tư";
             this.MenuToolTripVT.Click += new System.EventHandler(this.MenuToolTripVT_Click);
             // 
@@ -121,7 +120,7 @@
             // 
             this.MenuToolTripKH.Image = global::ManagerStoreBuilding.Properties.Resources.Supervisor_icon;
             this.MenuToolTripKH.Name = "MenuToolTripKH";
-            this.MenuToolTripKH.Size = new System.Drawing.Size(315, 44);
+            this.MenuToolTripKH.Size = new System.Drawing.Size(161, 22);
             this.MenuToolTripKH.Text = "Khách Hàng";
             this.MenuToolTripKH.Click += new System.EventHandler(this.MenuToolTripKH_Click);
             // 
@@ -133,14 +132,14 @@
             this.nhậpXuấtToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nhậpXuấtToolStripMenuItem.Image = global::ManagerStoreBuilding.Properties.Resources.download_database_icon;
             this.nhậpXuấtToolStripMenuItem.Name = "nhậpXuấtToolStripMenuItem";
-            this.nhậpXuấtToolStripMenuItem.Size = new System.Drawing.Size(191, 40);
+            this.nhậpXuấtToolStripMenuItem.Size = new System.Drawing.Size(115, 36);
             this.nhậpXuấtToolStripMenuItem.Text = "Nhập-Xuất";
             // 
             // MenuToolTripNK
             // 
             this.MenuToolTripNK.Image = global::ManagerStoreBuilding.Properties.Resources.Downloads_Black_Folder_icon;
             this.MenuToolTripNK.Name = "MenuToolTripNK";
-            this.MenuToolTripNK.Size = new System.Drawing.Size(261, 44);
+            this.MenuToolTripNK.Size = new System.Drawing.Size(133, 22);
             this.MenuToolTripNK.Text = "Nhập kho";
             this.MenuToolTripNK.Click += new System.EventHandler(this.MenuToolTripNK_Click);
             // 
@@ -148,7 +147,7 @@
             // 
             this.MenuToolTripXK.Image = global::ManagerStoreBuilding.Properties.Resources.box_out_icon;
             this.MenuToolTripXK.Name = "MenuToolTripXK";
-            this.MenuToolTripXK.Size = new System.Drawing.Size(261, 44);
+            this.MenuToolTripXK.Size = new System.Drawing.Size(133, 22);
             this.MenuToolTripXK.Text = "Xuất kho";
             this.MenuToolTripXK.Click += new System.EventHandler(this.MenuToolTripXK_Click);
             // 
@@ -160,14 +159,14 @@
             this.báoCáoThốngKêToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.báoCáoThốngKêToolStripMenuItem.Image = global::ManagerStoreBuilding.Properties.Resources.Document_Line_Chart_icon1;
             this.báoCáoThốngKêToolStripMenuItem.Name = "báoCáoThốngKêToolStripMenuItem";
-            this.báoCáoThốngKêToolStripMenuItem.Size = new System.Drawing.Size(289, 40);
+            this.báoCáoThốngKêToolStripMenuItem.Size = new System.Drawing.Size(166, 36);
             this.báoCáoThốngKêToolStripMenuItem.Text = "Báo cáo - Thống kê";
             // 
             // MenuToolTripKHTC
             // 
             this.MenuToolTripKHTC.Image = global::ManagerStoreBuilding.Properties.Resources.Document_Line_Chart_icon1;
             this.MenuToolTripKHTC.Name = "MenuToolTripKHTC";
-            this.MenuToolTripKHTC.Size = new System.Drawing.Size(391, 44);
+            this.MenuToolTripKHTC.Size = new System.Drawing.Size(199, 22);
             this.MenuToolTripKHTC.Text = "Khách Hàng Tích Cực";
             this.MenuToolTripKHTC.Click += new System.EventHandler(this.MenuToolTripKHTC_Click);
             // 
@@ -175,7 +174,7 @@
             // 
             this.DT.Image = global::ManagerStoreBuilding.Properties.Resources.Money_icon;
             this.DT.Name = "DT";
-            this.DT.Size = new System.Drawing.Size(391, 44);
+            this.DT.Size = new System.Drawing.Size(199, 22);
             this.DT.Text = "Doanh Thu";
             this.DT.Click += new System.EventHandler(this.DT_Click);
             // 
@@ -185,26 +184,24 @@
             this.panelWorkMain.BackgroundImage = global::ManagerStoreBuilding.Properties.Resources._9f5d6b94496517_5e808d30f29c2;
             this.panelWorkMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelWorkMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelWorkMain.Location = new System.Drawing.Point(0, 48);
-            this.panelWorkMain.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panelWorkMain.Location = new System.Drawing.Point(0, 40);
             this.panelWorkMain.Name = "panelWorkMain";
-            this.panelWorkMain.Size = new System.Drawing.Size(1774, 1262);
+            this.panelWorkMain.Size = new System.Drawing.Size(887, 512);
             this.panelWorkMain.TabIndex = 2;
             this.panelWorkMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelWorkMain_Paint);
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1774, 1310);
+            this.ClientSize = new System.Drawing.Size(887, 552);
             this.Controls.Add(this.panelWorkMain);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FormMain";
-            this.Text = "Management";
+            this.Text = "Phần Mềm Quản Lý";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
