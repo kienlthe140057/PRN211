@@ -75,7 +75,7 @@ namespace ManagerStoreBuilding
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                //gọi hàm ToExcel() với tham số là dtgDSHS và filename từ SaveFileDialog
+                //gọi hàm ToExcel() với tham số là dtg và filename từ SaveFileDialog
                 ToExcel(dataGridView1, saveFileDialog.FileName);
             }
         }
