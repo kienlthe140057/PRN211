@@ -50,7 +50,7 @@ namespace ManagerStoreBuilding
         private void FormNCC_Load(object sender, EventArgs e)
         {
             finished = false;
-            SqlCommand cmd = new SqlCommand("Select * from NCC", conn);
+            SqlCommand cmd = new SqlCommand("Select MaNCC as 'Nha Cung Cap',TenNCC as 'Ten Nha Cung Cap',SDT,DiaChi from NCC", conn);
             DataTable tb = new DataTable(); 
             try
             {

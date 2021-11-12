@@ -1,4 +1,6 @@
-﻿namespace ManagerStoreBuilding
+﻿using System;
+
+namespace ManagerStoreBuilding
 {
     partial class FormHD
     {
@@ -102,7 +104,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(12, 131);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(106, 16);
+            this.label9.Size = new System.Drawing.Size(105, 16);
             this.label9.TabIndex = 10;
             this.label9.Text = "Mã Khách Hàng:";
             // 
@@ -153,7 +155,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(79, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 16);
+            this.label4.Size = new System.Drawing.Size(74, 16);
             this.label4.TabIndex = 0;
             this.label4.Text = "Nhập Khóa";
             // 
@@ -211,13 +213,14 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(220, 22);
             this.dateTimePicker1.TabIndex = 3;
             this.dateTimePicker1.Value = new System.DateTime(2020, 8, 10, 2, 0, 16, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 94);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 16);
+            this.label3.Size = new System.Drawing.Size(75, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Thành Tiền";
             // 
@@ -226,7 +229,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 16);
+            this.label2.Size = new System.Drawing.Size(144, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Thời Gian Thanh Toán:";
             // 
@@ -235,7 +238,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.Size = new System.Drawing.Size(85, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã Hóa Đơn:";
             // 
@@ -338,7 +341,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(27, 119);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 16);
+            this.label8.Size = new System.Drawing.Size(78, 16);
             this.label8.TabIndex = 3;
             this.label8.Text = "Thành Tiền:";
             // 
@@ -347,7 +350,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(27, 52);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(68, 16);
+            this.label7.Size = new System.Drawing.Size(67, 16);
             this.label7.TabIndex = 2;
             this.label7.Text = "Số Lượng:";
             // 
@@ -356,7 +359,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(27, 87);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 16);
+            this.label6.Size = new System.Drawing.Size(58, 16);
             this.label6.TabIndex = 1;
             this.label6.Text = "Đơn Giá:";
             // 
@@ -365,7 +368,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(27, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 16);
+            this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 0;
             this.label5.Text = "Mã Vật Tư:";
             // 
@@ -393,6 +396,11 @@
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
