@@ -20,7 +20,7 @@ namespace ManagerStoreBuilding
         
         private void FormKHTC_Load(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-HS80QSQ; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-7RAMVV0\\SQLEXPRESS; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
 
             SqlCommand cmd = new SqlCommand("select top 4 HoaDon.MaKH,KhachHang.TenKH,  KhachHang.SDT, KhachHang.DiaChi, Sum(HoaDon.ThanhTien) as ThanhToan" +
                 " from HoaDon, KhachHang" +

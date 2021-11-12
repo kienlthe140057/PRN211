@@ -19,7 +19,7 @@ namespace ManagerStoreBuilding
             LoadData();
         }
         bool finished = false;
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-HS80QSQ; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-7RAMVV0\\SQLEXPRESS; Initial Catalog = QLVatTu; Integrated Security = SSPI;");
         private void LoadData()
         {
             SqlCommand com = new SqlCommand("Select * from KhachHang", conn);
